@@ -1,0 +1,23 @@
+Title: Math Painting
+Description: User can draw rectangles and square on image by entering some numbers in command line.
+User is supposed to enter canvas width, height, color; coordinates (x, y), dimensions (x, y), color (R, G, B)
+of rectangle OR square OR (quit) as many figures as user wants. In the end programs creates a canvas in .png.
+Objects:
+       Square:
+            x
+            y
+            side
+            color
+            draw(canvas)
+       Rectangle:
+            x
+            y
+            width
+            height
+            color
+            draw(canvas)
+       Canvas:
+            width
+            height
+            color
+            make(imagepath)
